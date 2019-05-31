@@ -13,9 +13,8 @@ Simple app to show the weather for the specified city
 
 # Example
 
-[src, bash]
-----
+```bash
 λ node app -d "Paris"
 Temperature obtained for Paris: 22.98
-----
+```
 
