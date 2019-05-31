@@ -1,0 +1,27 @@
+{
+  "name": "node_weather",
+  "version": "1.0.0",
+  "description": "Displays the weather of different cities ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juaamol/node_weather.git"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "weather"
+  ],
+  "author": "juaamol",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juaamol/node_weather/issues"
+  },
+  "homepage": "https://github.com/juaamol/node_weather#readme",
+  "dependencies": {
+    "yargs": "^13.2.4"
+  }
+}
