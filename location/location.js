@@ -1,4 +1,5 @@
 const axios = require('axios');
+const secretdata = require('../secretdata/secretdata');
 
 const getLocationLatLong = async(location) => {
     const encodedUrl = encodeURI(location);
@@ -6,7 +7,7 @@ const getLocationLatLong = async(location) => {
     const instance = axios.create({
         baseURL: `https://devru-latitude-longitude-find-v1.p.rapidapi.com/latlon.php?location=${encodedUrl}`,
         headers: {
-            'X-RapidAPI-Key': '6b26965d72mshff2819c670e7250p128608jsnc728442d15a0',
+            'X-RapidAPI-Key': secretdata.ApiKeyLatLon,
             'X-RapidAPI-Host': 'devru-latitude-longitude-find-v1.p.rapidapi.com'
         },
     });
